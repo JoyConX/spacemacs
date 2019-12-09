@@ -28,5 +28,7 @@
                                       go-vet
                                       go-build
                                       go-test
-                                      go-errcheck))
+                                      go-errcheck
+                                      go-staticcheck
+                                      ))
    (flycheck-gometalinter-setup))
